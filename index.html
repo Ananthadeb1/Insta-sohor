@@ -92,7 +92,20 @@
                 </p>
     
             </div>
-            
+            <div class="mx-5 my-3 div-bg">
+                <h2>What is Event Loop ???</h2>
+                <p class="h6">
+                    Event loop is a process of compiling asynchronus code in browser. In javascript codes ar compiled one by
+                    one. But in case of <strong>setTimeout()</strong> there is a time declared after which that code gets
+                    executed.
+                    In browser every line of code goes to the stack one by one and gets executed one after another.If any
+                    code like <strong>setTimeout()</strong> or fetching <strong>API</strong> comes in execution and it
+                    causes delay then browser puts it aside
+                    and goes for the next code and next code till that delaying one is ready to execute. The time its ready
+                    to execute and if stack is empty that time this code goes to stack and gets execute. Thus asynchronus
+                    codes get queued and gets executed later as a loop and its simply called event loop.
+                </p>
+            </div>
         </section>
         <footer></footer>
 
